@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.67c6c6ef.css",
+    "main.js": "/portfolio/static/js/main.6436c5f4.js",
+    "static/js/787.26f70c15.chunk.js": "/portfolio/static/js/787.26f70c15.chunk.js",
+    "static/media/TenorApiChallenge.png": "/portfolio/static/media/TenorApiChallenge.d1e6ecea70fe864ff499.png",
+    "static/media/ui.jpg": "/portfolio/static/media/ui.fc7010b74eb364272bce.jpg",
+    "static/media/react.jpg": "/portfolio/static/media/react.34f7c7540b86240d7b2c.jpg",
+    "static/media/faceBookChallenge.png": "/portfolio/static/media/faceBookChallenge.e9093d273021083fba8a.png",
+    "static/media/AccessingGitHubAccount.png": "/portfolio/static/media/AccessingGitHubAccount.b129d0cbaef8aa3d12e3.png",
+    "static/media/payPalSssHtml.png": "/portfolio/static/media/payPalSssHtml.f8bc4c661ac258c533bd.png",
+    "static/media/MyCvUpdated.pdf": "/portfolio/static/media/MyCvUpdated.dc4bb1091c0858b66a48.pdf",
+    "static/media/ToDoTaskWithReact.png": "/portfolio/static/media/ToDoTaskWithReact.d34686d885f078371cd4.png",
+    "static/media/countDownTimer.png": "/portfolio/static/media/countDownTimer.4283ac6d6a6d6d71ca1e.png",
+    "static/media/man.png": "/portfolio/static/media/man.1d5689da3de3030edb6d.png",
+    "index.html": "/portfolio/index.html",
+    "main.67c6c6ef.css.map": "/portfolio/static/css/main.67c6c6ef.css.map",
+    "main.6436c5f4.js.map": "/portfolio/static/js/main.6436c5f4.js.map",
+    "787.26f70c15.chunk.js.map": "/portfolio/static/js/787.26f70c15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67c6c6ef.css",
+    "static/js/main.6436c5f4.js"
+  ]
+}
