@@ -1,0 +1,116 @@
+.header{
+    padding-top: 0.625rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    background-color: green;
+    color: white;
+}
+.header__logo{
+    margin-left: 3.445rem;
+}
+.navbar{
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+    margin: 1rem;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+ul li a:hover{
+    border-bottom: 1px solid red;
+    transform: scale(99%);
+    transition: 250ms;
+    color: white;
+    background-color: green;
+
+    
+}
+.changer{
+    display: flex;
+    margin-right: 1.555rem;
+}
+.changer .menu{
+    cursor: pointer;
+    margin-right: 1rem;
+    display: none;
+}
+.closed .close{
+    display: none;
+}
+@media (max-width:850px){
+    .header{
+        justify-content: space-between;
+    }
+    .navbar{
+        display: none;
+        transition: 1s ease;
+    }
+    .navbar.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        inset: 0;
+        background: rgb(253, 234, 234);
+        transition: 1450ms ease;
+    }
+    ul{
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    ul li{
+             margin-block: 2rem;        
+    }
+    ul li a{
+        font-size: 20px;
+        color: rgb(40, 36, 36);
+        font-weight: bolder;
+    }
+    .changer .menu{
+        display: block;
+    }
+    .closed .close{
+        display: block;
+    }
+    .header__logo {
+        margin-left: .445rem;
+    }
+}
+@media (max-width:360px) {
+    ul {
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    ul li {
+           margin-block: 2rem;
+    }
+    ul li   a {
+               font-size: 20px;
+               color: rgb(40, 36, 36);
+               font-weight: bolder;
+           }     
+    
+
+    .changer .menu {
+            display: block;
+            margin-right: 0;
+        
+    }
+}

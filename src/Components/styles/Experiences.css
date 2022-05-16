@@ -1,0 +1,58 @@
+.experiences{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bolder;
+    color: black;
+    border-bottom: 1px solid green;
+    box-shadow: 2px 2px 15px green;
+    padding: 6px;
+    margin-block: 7px;
+    width: 90%;  
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    margin: auto;
+    margin-top: 100px;
+    border: 10px solid lightgray;
+}
+.experience{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 15px green;
+    margin-bottom: 10px;
+}
+.mainTitle{
+    width: 20%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bolder;
+    color: black;
+    height: 150px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bolder;
+    background-color: green;
+    color: white;
+    text-align: center;
+    
+}
+.experience:hover{
+    transform: scale(98%);
+    transition: 250ms;
+    color: black;
+}
+.para{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    width: 80%;
+    margin-left: 10px;
+}
+.paragraphExperience{
+    margin-top: -100px;
+}
